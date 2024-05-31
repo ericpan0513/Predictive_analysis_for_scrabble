@@ -12,6 +12,17 @@ the best-performing model. The model performance was evaluated using root mean s
 
 **The file `Scrabble.ipynb` contains the whole script**
 
+## Methodology ##
+To build a model that minimizes the RMSE, this project adopted the following methods:
+1. Feature Engineering  
+Experimented with new and original features to find the features that impact prediction.
+   
+3. Model Comparison  
+Tested five algorithms - Linear Regression, K-Nearest Neighbors (KNN), Decision Trees, Random Forest, and XGBoost - and chose the best-performing model.
+
+## Result ##
+The best model tested is `XGBoost`, with 11 features used
+
 As the result, this project reached an RMSE = 110, which can be within top 100 leaderboard on Kaggle.
 
 
